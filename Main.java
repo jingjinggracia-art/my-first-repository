@@ -2,32 +2,39 @@ public class Main {
 
    public static void main(String[] args) {
    
-      Movie m1 = new Movie();
-      m1.title = "Avengers";
-      m1.genre = "Action, SciFi, Fantasy";
-      m1.duration = 120;
-      m1.displayInfo();
+      Vehicle v1 = new Vehicle();
+      v1.brand = "Koenigsegg";
+      v1.model = "Koenigsegg Jesko";
+      v1.year = 2020;
+      v1.displayInfo();
+      v1.calculateAge();
+      v1.isVintage();
       
-      Movie m2 = new Movie();
-      m2.title = "Hercules";
-      m2.genre = "Action";
-      m2.duration = 95 ;
-      m2.displayInfo();
+      Vehicle v2 = new Vehicle();
+      v2.brand = "Dodge";
+      v2.model = "1970 Dodge Charger R/T";
+      v2.year = 1970 ;
+      v2.displayInfo();
+      v2.calculateAge();
+      v2.isVintage();
       
-      Movie m3 = new Movie();
-      m3.title = "Cars";
-      m3.genre = "Comedy, Racing";
-      m3.duration = 90;
-      m3.displayInfo();
+      Vehicle v3 = new Vehicle();
+      v3.brand = "Bugatti";
+      v3.model = "Bugatti Veyron";
+      v3.year = 2006;
+      v3.displayInfo();
+      v3.calculateAge();
+      v3.isVintage();
+      
+        v1.displayResults();
+        v2.displayResults();
+        v3.displayResults();
+      
+       
+      
+         
       
       
       }
     }
-      
-      
-      
-
-   
-   
-   
    
